@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+}
+
+
+.end{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+
+}
+.end_top{
+    display: flex;
+    height: 50%;
+}
+
+
+
+.end_company_name{
+    padding-top: 2vh;
+    padding-left: 20%;
+    transition: all .2s;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.4vh;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 3em;
+    color: white;
+    text-align: center;
+    margin-right: 15vh;
+    width: fit-content;
+}
+
+.end_company_name:before{
+    content: "";
+    position: absolute;
+    margin-right: 180px ;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/815/815882.png);
+    background-size: 100% 100%;
+  }
+
+.end_whitetext_1, .end_whitetext_2, .end_whitetext_3, .end_whitetext_4{
+    text-align: center;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 15vh;
+    height: fit-content;
+    margin-left: 20vh;
+    margin-top: 4.5vh;
+}
+
+.end_whitetext_2, .end_whitetext_3, .end_whitetext_4{
+    margin-left: 3vh;
+}
+
+.end_graytext_1, .end_graytext_2, .end_graytext_3, .end_graytext_4{
+    text-align: center;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #959595;
+    padding-top: 12vh;
+    margin-left: 18.5%;
+    margin-right: 5vh;
+    width: fit-content;
+}
+
+
+.end_graytext_2, .end_graytext_3, .end_graytext_4{
+    margin-left: 5vh;
+}
+
+.end_graytext_2{
+    margin-left: 40vh;
+}
+
+@media screen and (max-width: 980px) and (max-height: 700px){
+    .end_company_name{
+        padding-left: 5%;
+    }
+
+    .end_whitetext_1{
+        margin-left: 5.5vh;
+    }
+
+    .end_bottom{
+        height: 50%;
+    }
+
+    .end_graytext_1{
+        margin-left: 2%;
+    }
+    
+    .end_graytext_2{
+        margin-left: 20vh;
+        margin-right: 5vh;
+    }
+
+    .end_graytext_3{
+        margin-left: 0vh;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 640px){
+    .end{
+        width: 120vh;
+    }
+
+    .end_graytext_2{
+        margin-left: 2vh;
+    }
+
+    .end_company_name{
+        margin-right: 0vh;
+    }
+    
+    .end_whitetext_1{
+        margin-left: 3.5vh;
+    }
+
+    .end_graytext_3{
+        margin-right: 0vh;
+    }
+
+    .end_graytext_4{
+        margin-left: 4vh;
+    }
+}
